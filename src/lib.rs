@@ -1,5 +1,7 @@
 extern crate core;
 
+pub mod c4;
+
 pub mod sort {
     pub fn bubble_sort<T: PartialOrd>(vx: &mut Vec<T>) {
         let n = vx.len();
